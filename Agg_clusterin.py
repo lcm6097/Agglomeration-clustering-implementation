@@ -256,6 +256,6 @@ Main function, controls the program flow
 def main():
     df = open_file()
     df = cross_correlation(df)
-    Z = linkage    
+    clustering(df)  
 #Calls the main function
 main()
